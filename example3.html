@@ -5,16 +5,15 @@
 			var finalmessage = "no more bottles of beer.";
 			
 			function nintyninebottles(){
-				for(var i = 99; i > 0; i=i-1){
+				for(var i = 99; i >= 0; i=i-1){
 					if(i === 0) {
-					document.write(finalmessage);
-			} else {
-				
-				document.write(i + " bottles of beer<br>");
+						document.write(finalmessage);
+					} else {
+						document.write(i + " bottles of beer<br>");
+					}
+				}
 			}
-			}
-//	test comment......
-			test(message, bottle);
+
 		</script>
 	</head>
 	<body>
